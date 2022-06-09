@@ -1,0 +1,27 @@
+{
+  "name": "strapi-provider-upload-cloudflare-r2",
+  "version": "0.1.0",
+  "description": "Cloudflare R2 provider for Strapi (v4) upload",
+  "keywords": [
+    "upload",
+    "aws",
+    "cloudflare",
+    "R2"
+  ],
+  "license": "MIT",
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "aws-sdk": "2.892.0",
+    "lodash": "4.17.21"
+  },
+  "engines": {
+    "node": ">=12.22.0 <=16.x.x",
+    "npm": ">=6.0.0"
+  }
+}
